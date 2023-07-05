@@ -7,27 +7,30 @@
     --cor3:#FFFFFF;
     --cor4:#DBDBDB;
     --cor5:#191919;
+    --cor6: #e7820f;
 
     --font1: arial ;
 }
 
 
 body{
+    background-image: url(imagens/body.jpg);
 
-    background-image: linear-gradient(to top, var(--cor1) , var(--cor4));
-    margin: -30;
+    
+    
     font-family: var(--font1);
     
 
 }
 
 header{
-    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2));
+    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2), var(--cor1));
     padding:30px ;
     min-width: 280px;
     max-width: 1800px;
     margin: -8px;
-    box-shadow: 5px 3px 10px var(--cor2);
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.267);
+    border-radius: 0px 0px 10px 10px;
     
     
 }
@@ -60,7 +63,7 @@ header h2 {
 header p {
     text-shadow: 3px 2px 5px var(--cor5);
    color: var(--cor4);
-    padding: 10px;
+    
     text-align: right;
     padding-right: 30px;
     width: 350px;
@@ -68,22 +71,34 @@ header p {
     justify-content: flex-end;
 
 }
+nav{
+    background-image: linear-gradient(to bottom, var(--cor2),var(--cor6), var(--cor4));
+    padding: 50px;
+    border-radius: 5% 50px;
+    
+
+    margin: 15px auto ;
+    width: 250px;
+    text-align: center;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.267);
+}
 
 
 
 nav a {
     text-decoration: none;
-    margin: 15px;
-    color: var(--cor4);
-    box-shadow: 10px;
-    
-    padding: 5px;
+    box-shadow: 10px;          
     border-radius: 5px;
     
+    
+   
 }
 
 a:hover{
-    text-decoration: underline;
+
+  color: #e7820f;
+
+    
 }
 
 
