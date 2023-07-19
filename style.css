@@ -39,39 +39,7 @@ body{
 
 }
 
-header{
-    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2), var(--cor6));
-    padding:30px ;
-    min-width: 280px;
-    max-width: 2000px;
-    margin: -8px;
-    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.267);
-    border-radius: 0px 0px 10px 10px;
-    
-    
-}
 
-header h2 {
-    
-    font-family: var(--font3);
-    color: var(--cor4);
-    text-align: left;
-    padding-left: 30px;
-    text-shadow: 3px 2px 5px var(--cor5);  
-    border-radius: 10px;   
-}
-
-header h2:hover{
-    height: 30px;
-    
-    padding: 5px;
-    width: 330px;
-    text-align: center;
-    border-radius: 10px;
-    color: var(--cor4);
-    background-image: linear-gradient(to bottom, var(--cor1),var(--cor6));
-    transition-duration: 0.5s;
-}
 
 header h1 {
     font-family: var(--font3);
@@ -205,9 +173,11 @@ main h2 {
     z-index: 2;
     font-family: var(--font2) ;
     font-size: 20px;
+    font-variant: small-caps;
     letter-spacing: 5px;
     color: #FFFFFF;
     text-shadow: 0 0 4px white;
+    
   }
   
   #glow {
@@ -339,6 +309,15 @@ main h2 {
       transform: scale(0.75);
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
+  }
+
+
+  section#espaco{
+
+    border-radius: 30px;
+   
+   
+
   }
 
   /*Fim do elemento do site*/
