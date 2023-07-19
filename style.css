@@ -39,6 +39,14 @@ body{
 
 }
 
+header h2 {
+  
+  font-family: var(--font1);
+  color: var(--cor4);
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
 
 
 header h1 {
@@ -50,6 +58,7 @@ header h1 {
     max-width: 610px;
     text-align: center;
     margin: auto;
+    padding-bottom: 30px;
 
     text-shadow: 3px 2px 5px var(--cor5);       
     
@@ -66,9 +75,11 @@ header p {
     text-shadow: 3px 2px 5px var(--cor5);
    color: var(--cor4);
    font-family: var(--font1);
+   padding-bottom: 20px;
+
     
     text-align: right;
-    padding-right: 30px;
+    padding-right: 100px;
     width: 350px;
     margin-left:auto;
     justify-content: flex-end;
@@ -134,22 +145,95 @@ section{
    
 }
 
-section h1{
-    text-align: center;
-    padding: 5px;
-   
-}
 
 
 
-main h2 {
-    
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
 
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
