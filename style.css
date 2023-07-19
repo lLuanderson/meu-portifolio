@@ -77,6 +77,18 @@ header p {
 nav{
     background-image: linear-gradient(to bottom, var(--cor6),var(--cor2), var(--cor2));
     padding: 50px;
+    border-radius: 10px 50px;
+    
+
+    margin: 15px auto ;
+    width: 300px;
+    text-align: center;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.267);
+}
+
+.github{
+  background-image: linear-gradient(to bottom, var(--cor6),var(--cor2), var(--cor2));
+    padding: 50px;
     border-radius: 5% 50px;
     
 
@@ -84,32 +96,34 @@ nav{
     width: 250px;
     text-align: center;
     box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.267);
+
+}
+
+.linkedin{
+  background-image: linear-gradient(to bottom, var(--cor6),var(--cor2), var(--cor2));
+    padding: 50px;
+    border-radius: 5% 50px;
+    
+
+    margin:auto ;
+    width: 320px;
+    text-align: center;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.267);
 }
 
 
 
-nav a {
-    text-decoration: none;
-    box-shadow: 10px;          
-    border-radius: 5px;
-    
-    
-   
-}
 
-a:hover{
 
-  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.226);
-  
-  transition-duration: 0.5s;
-  margin-top: 30px;
+
+
  
 
   
   
 
     
-}
+
 section{
     margin: auto;
     width: 400px;
