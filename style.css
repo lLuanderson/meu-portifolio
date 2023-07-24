@@ -32,9 +32,9 @@ body{
     height: 100vh;  
     font-family: var(--font1);
     background-image: url(imagens/fundo-1.jpg);
-   background-position: center, center;
-   background-size: cover;
-   background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
 
 
 }
@@ -128,7 +128,6 @@ nav{
 
 
 
- 
 
   
   
@@ -142,8 +141,23 @@ section{
     background-image: linear-gradient(to top, var(--cor6), var(--cor2));
     border-radius: 10px;
     
-   
+
 }
+
+#projetos{
+  background-color: var(--cor6);
+  height: 200px;
+  min-width: 280px;
+  max-width: 500px;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+  text-align: center , bottom;
+  font-size: 3em;
+  
+
+}
+
 
 
 
