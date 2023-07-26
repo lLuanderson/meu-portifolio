@@ -167,6 +167,30 @@ section{
   margin: auto;
 }
 
+h3 a{
+
+  padding: 10px;
+  color: var(--cor1);
+  text-align: center;
+  text-decoration: none;
+  height: 20px;
+  margin: 5px;
+}
+h3{
+  background-image:linear-gradient( to right, var(--cor2), var(--cor3));
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin: auto;
+
+}
+
+h3:hover{
+  text-decoration: underline;
+  box-shadow: 5px 5px 13px var(--cor4);
+  color: var(--cor2);
+}
+
 
 
 
