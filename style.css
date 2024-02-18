@@ -129,19 +129,50 @@ nav{
 
 
 
-  
-  
 
-    
 
 section{
     margin: auto;
     width: 400px;
+    height: 600px;
     font-family: var(--font3);
     background-image: linear-gradient(to top, var(--cor6), var(--cor2));
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 
+}
+
+a#cormq{
+  color: var(--cor3);
+}
+
+a#cormq:hover{
+  color: var(--cor4);
+}
+
+
+div#telefone{
+  background: url(../imagens/frame-iphone.png) center center;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+
+}
+
+iframe#telai{
+  padding: 75px;
+  width: 234px;
+  height: 407px;
+  display: block;
+  margin: auto;
+
+}
+
+img#telamq{
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  display: block;
+  margin: auto;
 }
 
 #projetos{
@@ -190,7 +221,6 @@ h3:hover{
   box-shadow: 5px 5px 13px var(--cor4);
   color: var(--cor2);
 }
-
 
 
 
